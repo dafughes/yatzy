@@ -319,8 +319,9 @@ fn App() -> impl IntoView {
     let players = RwSignal::new(vec![
         Player::new("1"),
         Player::new("2"),
-        // Player::new("3"),
-        // Player::new("4"),
+        Player::new("3"),
+        Player::new("4"),
+        Player::new("5"),
     ]);
 
     let dice = RwSignal::new(vec![1; NUM_DICE]);
